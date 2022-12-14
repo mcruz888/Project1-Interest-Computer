@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Interest Computer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <header> 
+      <div id="title">Interest Computer</div>
+      <img src="MoneySymbol.png" class="rotating">
+    </header>
+    <table>
+      <thread>
+      <tr>
+        <td>Principal:</td> <td><input id="principal"></td>
+      </tr>
+      <tr>
+        <td>Interest(Percentage): </td><td><input id="interest"> </td>
+      </tr>
+      <tr>
+        <td>Times Compounded:</td><td> <input id="compound"></td>
+      </tr>
+      <tr>
+        <td>Years:</td><td><input id="years" type="number" min="1"></td>
+      </tr>
+    </table>
+    <p>Profit: <span id="profit"></span><p>
+        <script src="cic.js"></script>
+
+      <footer><a href="https://codesandbox.io/s/compound-interest-calculator-p2uj55?file=/index.html">CodeSandbox Link</a></footer>
+  </body>
+</html>
